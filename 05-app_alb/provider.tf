@@ -7,7 +7,7 @@ terraform {
   }
   
    backend "s3" {
-    bucket = "devops-state-dev"
+    bucket = "devopsrank-state-prod"
     key    = "app-alb"
     region = "us-east-1"
      dynamodb_table = "devops-locking-dev"
