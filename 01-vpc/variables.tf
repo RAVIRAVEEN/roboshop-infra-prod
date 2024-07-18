@@ -1,5 +1,5 @@
 variable "cidr_block" {
-  default = "10.1.1.0/16"
+  default = "10.3.0.0/16"
   }
 
 variable "common_tags" {
@@ -33,19 +33,19 @@ variable "public_subnet_tags" {
 }
 
 variable "public_subnet_cidr" {
-    default = ["10.1.11.0/24", "10.1.12.0/24"]
+    default = ["10.0.10.0/24", "10.0.19.0/24"]
 
   
 }
 
 variable "private_subnet_cidr" {
-    default = ["10.1.21.0/24", "10.1.22.0/24"]
+    default = ["10.0.21.0/24", "10.0.29.0/24"]
 
   
 }
 
 variable "database_subnet_cidr" {
-    default = ["10.1.31.0/24", "10.1.32.0/24"]
+    default = ["10.0.31.0/24", "10.0.39.0/24"]
 
 }
 
